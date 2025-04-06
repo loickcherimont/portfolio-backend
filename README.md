@@ -10,7 +10,7 @@
 - [x] Create the DELETE ROUTE (Delete a project)
 
 ### 0.2.0
-- [ ] Use MongoDB to store data
+- [x] Use MongoDB to store data
 - [ ] Display all projects from DB (READ ALL)
 - [ ] Display a specific project from DB
 - [ ] Use OC classes to achieve CRUD
