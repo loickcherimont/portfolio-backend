@@ -11,6 +11,10 @@
 
 ### 0.2.0
 - [x] Use MongoDB to store data
-- [ ] Display all projects from DB (READ ALL)
+- [x] Display all projects from DB (READ ALL)
+
+### 0.3.0
+- [ ] Create a front-end application for some routes
+- [ ] Create ROUTES and store them into ROUTES folder
 - [ ] Display a specific project from DB
 - [ ] Use OC classes to achieve CRUD
