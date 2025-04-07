@@ -4,8 +4,17 @@ import mongoose from 'mongoose';
 
 const app = express()
 
+
 // To extract JSON body quickly
 app.use(express.json());
+
+// Process CORS errors
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+    next();
+})
 
 const port = process.env.PORT || 3000
 
